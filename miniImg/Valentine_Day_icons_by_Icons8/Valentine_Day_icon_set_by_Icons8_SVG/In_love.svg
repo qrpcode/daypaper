@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 21.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<g id="Layer_1">
+	<g>
+		<radialGradient id="SVGID_1_" cx="32.375" cy="35.569" r="49.7797" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#AFEEFF"/>
+			<stop  offset="0.1927" style="stop-color:#BBF1FF"/>
+			<stop  offset="0.7025" style="stop-color:#D7F8FF"/>
+			<stop  offset="1" style="stop-color:#E1FAFF"/>
+		</radialGradient>
+		<path style="fill:url(#SVGID_1_);" d="M60,44H45l-2.6-1h6.012c1.138,0,2.202-0.721,2.497-1.821C51.355,39.516,50.096,38,48.5,38
+			c-0.828,0-1.5-0.672-1.5-1.5s0.672-1.5,1.5-1.5h2.912c1.139,0,2.202-0.721,2.497-1.821C54.355,31.516,53.096,29,51.5,29H51
+			c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2h9c1.139,0,2.202-0.721,2.497-1.821C62.943,21.516,61.684,20,60.088,20H59
+			c-1.105,0-2-0.895-2-2c0-1.105,0.895-2,2-2h2c1.848,0,3.319-1.693,2.94-3.605C63.657,10.972,62.32,10,60.869,10H50.5
+			C49.672,10,49,9.328,49,8.5S49.672,7,50.5,7h5.912c1.139,0,2.202-0.721,2.497-1.821C59.355,3.516,58.096,2,56.5,2H10.588
+			C9.449,2,8.386,2.721,8.091,3.821C7.645,5.484,8.904,7,10.5,7l0,0C11.881,7,13,8.119,13,9.5c0,1.381-1.119,2.5-2.5,2.5H9.588H7
+			c-1.65,0-3,1.35-3,3c0,1.65,1.35,3,3,3h19c0.352,0,0.685-0.073,1-0.185V29h-7.412c-1.139,0-2.202,1.721-2.497,2.821
+			c-0.219,0.817-0.024,1.595,0.418,2.179H3.5C2.119,34,1,35.119,1,36.5C1,37.881,2.119,39,3.5,39h1C5.881,39,7,40.119,7,41.5
+			C7,42.881,5.881,44,4.5,44H4c-1.657,0-3,1.343-3,3s1.343,3,3,3h5.5c1.381,0,2.5,1.119,2.5,2.5c0,1.381-1.119,2.5-2.5,2.5H8
+			c-1.657,0-3,1.343-3,3s1.343,3,3,3h48c1.657,0,3-1.343,3-3s-1.343-3-3-3h-0.5c-1.381,0-2.5-1.119-2.5-2.5
+			c0-1.381,1.119-2.5,2.5-2.5H60c1.657,0,3-1.343,3-3S61.657,44,60,44z M27,37.077L21.6,35H27V37.077z"/>
+		<radialGradient id="SVGID_2_" cx="30.375" cy="35" r="49.4501" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#AFEEFF"/>
+			<stop  offset="0.1927" style="stop-color:#BBF1FF"/>
+			<stop  offset="0.7025" style="stop-color:#D7F8FF"/>
+			<stop  offset="1" style="stop-color:#E1FAFF"/>
+		</radialGradient>
+		<circle style="fill:url(#SVGID_2_);" cx="3.5" cy="4.5" r="2.5"/>
+	</g>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="32" y1="56" x2="32" y2="6">
+		<stop  offset="0" style="stop-color:#FEAA53"/>
+		<stop  offset="0.6124" style="stop-color:#FFCD49"/>
+		<stop  offset="1" style="stop-color:#FFDE44"/>
+	</linearGradient>
+	<path style="fill:url(#SVGID_3_);" d="M57,31c0,13.805-11.195,25-25,25S7,44.805,7,31S18.195,6,32,6S57,17.195,57,31z"/>
+	<path style="fill:none;stroke:#717171;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10;" d="M36.5,41.5
+		c0,2.211-2.013,4-4.5,4s-4.5-1.789-4.5-4"/>
+	<g>
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="43.5" y1="37" x2="43.5" y2="24">
+			<stop  offset="0" style="stop-color:#FF5840"/>
+			<stop  offset="0.0072" style="stop-color:#FF5840"/>
+			<stop  offset="0.9892" style="stop-color:#FA528C"/>
+			<stop  offset="1" style="stop-color:#FA528C"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_4_);" d="M50.911,27.155c-0.32-1.564-1.589-2.808-3.132-3.088c-1.584-0.288-3.022,0.389-3.871,1.545
+			c-0.2,0.272-0.616,0.272-0.815,0c-0.849-1.156-2.287-1.833-3.871-1.545c-1.543,0.281-2.812,1.524-3.132,3.088
+			c-0.302,1.476,0.187,2.849,1.115,3.763l-0.001,0.001l5.428,5.711c0.479,0.493,1.261,0.493,1.739,0l5.425-5.71l-0.001,0
+			C50.723,30.006,51.213,28.631,50.911,27.155z"/>
+		<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="20.5" y1="37" x2="20.5" y2="24">
+			<stop  offset="0" style="stop-color:#FF5840"/>
+			<stop  offset="0.0072" style="stop-color:#FF5840"/>
+			<stop  offset="0.9892" style="stop-color:#FA528C"/>
+			<stop  offset="1" style="stop-color:#FA528C"/>
+		</linearGradient>
+		<path style="fill:url(#SVGID_6_);" d="M27.911,27.155c-0.32-1.564-1.589-2.808-3.132-3.088c-1.584-0.288-3.022,0.389-3.871,1.545
+			c-0.2,0.272-0.616,0.272-0.815,0c-0.849-1.156-2.287-1.833-3.871-1.545c-1.543,0.281-2.812,1.524-3.132,3.088
+			c-0.302,1.476,0.187,2.849,1.115,3.763l-0.001,0.001l5.428,5.711c0.479,0.493,1.261,0.493,1.739,0l5.425-5.71l-0.001,0
+			C27.723,30.006,28.213,28.631,27.911,27.155z"/>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>
