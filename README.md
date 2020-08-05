@@ -27,17 +27,19 @@
 
 ### 截图
 
-![showshare](D:\hello\daypaper\README_img\showshare.jpg)![login](D:\hello\daypaper\README_img\login.jpg)
+![showshare](https://github.com/qrpcode/daypaper/blob/master/README_img/showshare.jpg?raw=true)
 
-![showad](D:\hello\daypaper\README_img\showad.jpg)
+![login](https://github.com/qrpcode/daypaper/blob/master/README_img/login.jpg?raw=true)
 
-![pinduoduo](D:\hello\daypaper\README_img\pinduoduo.jpg)
+![showad](https://github.com/qrpcode/daypaper/blob/master/README_img/showad.jpg?raw=true)
 
-![getpaper](D:\hello\daypaper\README_img\getpaper.jpg)
+![pinduoduo](https://github.com/qrpcode/daypaper/blob/master/README_img/pinduoduo.jpg?raw=true)
 
-![1581081848](D:\hello\daypaper\README_img\1581081848.jpg)
+![getpaper](https://github.com/qrpcode/daypaper/blob/master/README_img/getpaper.jpg?raw=true)
 
-![duoduojinbao](D:\hello\daypaper\README_img\duoduojinbao.png)
+![1581081848](https://github.com/qrpcode/daypaper/blob/master/README_img/1581081848.jpg?raw=true)
+
+![duoduojinbao](https://github.com/qrpcode/daypaper/blob/master/README_img/duoduojinbao.png?raw=true)
 
 
 
