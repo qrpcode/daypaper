@@ -1,0 +1,41 @@
+<!--pages/pin/pin.wxml-->
+<import src="../template/template-pdd.wxml" />
+
+<view class="seach-box">
+	<view class="page-seach">
+		<view class="seach-word" hidden="{{keywordHidden}}" bindtap="chooseHome">{{keyword}}<text>×</text></view>
+		<input class="seach-input" placeholder="{{placeText}}" bindinput='getInputValue' value='{{inputValue}}' disabled="{{inputDisable}}"></input>
+		<view class="seach-button" bindtap="seach">搜索</view>
+	</view>
+</view>
+<scroll-view class="item-type" scroll-x>
+	<view class="type{{typeCss[0]}}" bindtap="chooseHome">热门</view>
+	<view class="type{{typeCss[13]}}" bindtap="chooseType" data-optId="13">水果</view>
+	<view class="type{{typeCss[1]}}" bindtap="chooseType" data-optId="1">食品</view>
+	<view class="type{{typeCss[18]}}" bindtap="chooseType" data-optId="18">电器</view>
+	<view class="type{{typeCss[1543]}}" bindtap="chooseType" data-optId="1543">手机</view>
+	<view class="type{{typeCss[16]}}" bindtap="chooseType" data-optId="16">美妆</view>
+	<view class="type{{typeCss[15]}}" bindtap="chooseType" data-optId="15">百货</view>
+	<view class="type{{typeCss[743]}}" bindtap="chooseType" data-optId="743">男装</view>
+	<view class="type{{typeCss[1281]}}" bindtap="chooseType" data-optId="1281">鞋包</view>
+	<view class="type{{typeCss[2048]}}" bindtap="chooseType" data-optId="2048">汽车</view>
+	<view class="type{{typeCss[14]}}" bindtap="chooseType" data-optId="14">女装</view>
+	<view class="type{{typeCss[2974]}}" bindtap="chooseType" data-optId="2974">家具</view>
+	<view class="type{{typeCss[1282]}}" bindtap="chooseType" data-optId="1282">内衣</view>
+	<view class="type{{typeCss[8608]}}" bindtap="chooseType" data-optId="8608">家装</view>
+	<view class="type{{typeCss[2478]}}" bindtap="chooseType" data-optId="2478">电脑</view>
+	<view class="type{{typeCss[1451]}}" bindtap="chooseType" data-optId="1451">运动</view>
+	<view class="type{{typeCss[4]}}" bindtap="chooseType" data-optId="4">母婴</view>
+	<view class="type{{typeCss[818]}}" bindtap="chooseType" data-optId="818">家纺</view>
+	<view class="type{{typeCss[12]}}" bindtap="chooseType" data-optId="12">海淘</view>
+</scroll-view>
+<view class="box">
+	<view class="item-sorry" hidden="{{sorryHidden}}">由于相关规范，部分商品不予展示</view>
+	<view wx:for="{{item}}" wx:for-item="item" wx:key="key">
+		<template is="pddTemplate" data="{{...item}}"></template>
+	</view>
+	<view class="box-clean"></view>
+</view>
+<view class="goTop" style="background-image: url(https://qiadian.cn/gotop.png);" hidden="{{goTopHidden}}" bindtap="goTop">顶部</view>
+
+<view class="loading">正在加载中</view>

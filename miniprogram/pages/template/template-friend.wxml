@@ -1,0 +1,4 @@
+<template name="friendTemplate">
+  <image class="paper-friendImg" src="https://www.qiadian.cn/paper/avatar/{{wxId}}.jpg" bindtap="viewFriends" data-friendWxId="{{wxId}}"></image>
+  <view class="paper-friendName" bindtap="viewFriends" data-friendWxId="{{wxId}}">{{userName}}</view>
+</template>
