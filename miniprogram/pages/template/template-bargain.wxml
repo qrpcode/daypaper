@@ -1,0 +1,8 @@
+<template name="bargainTemplate">
+  <view class="list-img" style="background-image: url(https://*****/paper/avatar/{{userId}}.png), url(https://*****/userImg.png);"></view>
+  <view class="list-middle">
+    <view class="list-name">{{userName}}</view>
+    <view class="list-tips">{{tips}}</view>
+  </view>
+  <view class="list-right"><text>￥</text>{{downPrice}}</view>
+</template>

@@ -1,0 +1,44 @@
+<!--pages/bargain/bargain.wxml-->
+<import src="../template/template-bargain.wxml" />
+
+<!-- 内容主体 -->
+<view class="bg">
+  <view class="box"></view>
+  <!-- 头像 -->
+  <view class="userImgBox"><open-data type="userAvatarUrl" class="userImg"></open-data></view>
+  <!-- 已砍 -->
+  <view class="priceDown" style="margin-left: {{priceDownLine}}rpx">已砍{{priceDown}}元</view>
+  <!-- 进度条 -->
+  <view class="priceLine" style="width:{{priceLine}}rpx;"></view>
+  <!-- 剩余价格 -->
+  <view class="priceLast">还剩{{priceLast}}元</view>
+  <!-- 剩余时间 -->
+  <view class="timeLast">
+    <view class="timeLast-h">{{hour}}</view>
+    <view class="timeLast-m">{{minute}}</view>
+    <view class="timeLast-s">{{second}}.{{millisecond}}</view>
+  </view>
+  <!-- 分享 -->
+  <button open-type="share" class="shareButton" style="width: 693rpx;"></button>
+
+  <!-- 分享清单 -->
+  <scroll-view scroll-y="true" class="list">
+    <view class="list-once">
+      <view class="list-img" style="background-image: url(https://*****/userImg.png);"></view>
+      <view class="list-middle" style="width:390rpx">
+        <view class="list-name">屠龙神刀3折券</view>
+        <view class="list-tips">神券在手，砍价更容易</view>
+      </view>
+      <view class="list-right"><text>￥</text>14.00</view>
+    </view>
+    <view wx:for="{{helpList}}" wx:for-item="helpList" wx:key="key" class="list-once">
+      <template is="bargainTemplate" data="{{...helpList}}"></template>
+    </view>
+  </scroll-view>
+</view>
+
+<!-- 进入展示优惠券 -->
+<view class="mask-windows" hidden="{{bargainTips}}" bindtap="newBargain">
+  <view class="quan"></view>
+  <view class="use"></view>
+</view>

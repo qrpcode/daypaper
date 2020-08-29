@@ -1,0 +1,5 @@
+<template name="seckillTemplate">
+  <view class="list-img" style="background-image: url(https://*****/user{{pic}}.jpg);"></view>
+  <view class="list-name">{{name}}</view>
+  <view class="list-get">{{number}}</view>
+</template>

@@ -1,0 +1,55 @@
+/* pages/seckill/seckill.wxss */
+.bg{
+  width: 750rpx;
+  height: 2343rpx;
+  background-image: url(https://*****/seckll.png);
+  background-size: 750rpx 2343rpx;
+}
+.seckillGif{
+  width: 750rpx;
+  height: 798rpx;
+  background-image: url(https://*****/seckill2.gif);
+  background-size: 750rpx 798rpx;
+}
+.box{
+  width: 1rpx;
+  height: 48rpx
+}
+.seckillButton{
+  width: 356rpx;
+  height: 142rpx;
+  background-size: 356rpx 142rpx;
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  line-height: 100rpx;
+  font-size: 37rpx;
+}
+.list{
+  width: 700rpx;
+  height: 77rpx;
+  margin-top: 74rpx;
+}
+.list-img{
+  margin-left: 98rpx;
+  width: 77rpx;
+  height: 77rpx;
+  border-radius: 50%;
+  float: left;
+  background-size: 77rpx 77rpx;
+}
+.list-name{
+  width: 340rpx;
+  padding-left: 17rpx;
+  line-height: 77rpx;
+  font-size: 31rpx;
+  color: #FFF;
+  float: left;
+}
+.list-get{
+  text-align: center;
+  line-height: 77rpx;
+  font-size: 55rpx;
+  color: #FFF;
+  float: left;
+}

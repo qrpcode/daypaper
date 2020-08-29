@@ -1,0 +1,4 @@
+<template name="friendTemplate">
+  <image class="paper-friendImg" src="{{userAvatar}}" style="background-image: url(https://*****/userImg.png);"></image>
+  <view class="paper-friendName">{{userName}}</view>
+</template>

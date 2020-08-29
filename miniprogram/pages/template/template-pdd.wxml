@@ -1,0 +1,15 @@
+<template name="pddTemplate">
+	<view class="good" hidden="{{hidden}}">
+		<image src="{{goods_image_url}}" bindtap="goBuy" data-id="{{goods_id}}"></image>
+		<view class="good-title" bindtap="goBuy" data-id="{{goods_id}}">{{goods_name}}</view>
+		<view class="good-tips" bindtap="goBuy" data-id="{{goods_id}}">
+			<text class="good-my" hidden="{{has_coupon_hidden}}">{{coupon_discount}}元券</text>
+			<text class="good-friend" decode="true" hidden="{{special}}">下单&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+{{paperNum}}卷</text>
+		</view>
+		<view class="good-money" bindtap="goBuy" data-id="{{goods_id}}">
+			<text class="good-moneyIco">￥</text>
+			{{min_group_price}}
+			<text class="good-sale">已拼{{sales_tip}}件</text>
+		</view>
+	</view>
+</template>

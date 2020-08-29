@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/paper/paper",
+    "pages/invite/invite",
+    "pages/fortune/fortune",
+    "pages/pin/pin",
+    "pages/bargain/bargain",
+    "pages/seckill/seckill"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "天天领卷纸",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "navigateToMiniProgramAppIdList": ["*****", "*****","*****","*****"]
+}

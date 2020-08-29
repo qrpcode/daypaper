@@ -1,0 +1,222 @@
+/* pages/pin/pin.wxss */
+.page-seach{
+  width:100%;
+  height:60rpx;
+  position: relative;
+}
+.seach-box{
+  height: 70rpx;
+  width: 700rpx;
+  margin:0 auto;
+  margin-top: 5rpx;
+}
+.seach-word{
+  position: absolute;
+  top:7rpx;
+  left:20rpx;
+  line-height: 50rpx;
+  height: 50rpx;
+  font-size: 30rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  background-color: #333;
+  color:#FFF;
+  z-index: 100;
+  border-radius: 25rpx;
+}
+.seach-word text{
+  font-size: 37rpx;
+  padding-left: 8rpx;
+  height: 50rpx;
+  line-height: 37rpx;
+}
+.seach-input{
+  width:570rpx;
+  height: 60rpx;
+  background-color: #EDEDED;
+  border-radius: 10rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  float: left;
+  padding-left: 10rpx;
+}
+.seach-button{
+  float: left;
+  line-height: 70rpx;
+  color:#333;
+  text-align: center;
+  width:100rpx;
+  font-size: 30rpx;
+}
+.itemBox{
+  width:754rpx;
+  margin-left: 2rpx;
+  height:auto;
+}
+.item-time{
+  width:100%;
+  height:65rpx;
+  line-height: 65rpx;
+  text-align: center;
+  color: #e02e24;
+  font-size: 31rpx;
+  margin:0 auto;
+}
+.item-type{
+  height:70rpx;
+  width: 750rpx;
+  white-space:nowrap;
+}
+.type, .type-choose{
+  font-size: 31rpx;
+  text-align: center;
+  padding-left: 8rpx;
+  padding-right: 8rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  width: 80rpx;
+  display:inline-block;
+}
+.type{
+  color:#333;
+}
+.type-choose{
+  color: #e02e24;
+  position: relative;
+}
+.type-choose::after{
+  content: '';
+  position: absolute;
+  left: 28rpx;
+  top: 60rpx;
+  height: 6rpx;
+  width: 40rpx;
+  background-color: #fc564e;
+  z-index: 2;
+  border-radius: 6rpx;
+}
+
+.item-sorry{
+  width:680rpx;
+  height:40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  color: rgb(252, 126, 8);
+  background-color: rgb(247, 236, 195);
+  border-radius: 25rpx;
+  font-size: 28rpx;
+  margin:0 auto;
+  margin-bottom: 20rpx;
+}
+
+.good{
+  width:369rpx;
+  height:530rpx;
+  border:3rpx solid #f4f4f4;
+  background-color: #FFF;
+  float: left;
+}
+.good image{
+  height: 369rpx;
+  width: 369rpx;
+}
+.good-title{
+  font-size: 28rpx;
+  line-height: 35rpx;
+  max-height: 35rpx;
+  word-break: break-all;
+  color: #151516;
+  overflow: hidden;
+  margin-left: 10rpx;
+  width: 353rpx;
+}
+.good-tips{
+  margin-left: 10rpx;
+  height:40rpx;
+  margin-top: 6rpx;
+}
+.good-my{
+  padding-left: 4rpx;
+  padding-right: 4rpx;
+  border-radius: 3rpx;
+  font-size: 25rpx;
+  background-color: #ff908a;
+  color: #FFF;
+  margin-right: 8rpx;
+}
+.good-friend{
+  background-image: url(https://*****/rolled2.png);
+  background-size: 30rpx 30rpx;
+  background-repeat: no-repeat;
+  background-position: 53rpx 0;
+  padding-left: 4rpx;
+  padding-right: 4rpx;
+  border-radius: 3rpx;
+  font-size: 25rpx;
+  color: #e06924;
+  margin-right: 15rpx;
+}
+.good-money{
+  height: 50rpx;
+  font-size: 35rpx;
+  font-weight: 700;
+  color: #e02e24;
+  line-height: 50rpx;
+  margin-top: 6rpx;
+  margin-left: 10rpx;
+}
+.good-moneyIco{
+  font-size: 23rpx;
+}
+.good-sale{
+  font-size: 26rpx;
+  padding-left: 10rpx;
+  font-weight: 400;
+  color: #9c9c9c;
+}
+.box-clean{
+  clear: both;
+}
+/*返回顶部*/
+.goTop{
+  width:80rpx;
+  height:40rpx;
+  padding-top: 40rpx;
+  border-radius: 50%;
+  background-size: cover;
+  font-size: 26rpx;
+  line-height: 30rpx;
+  text-align: center;
+  color: #666;
+  position: fixed;
+  bottom: 100rpx;
+  right:30rpx;
+}
+.item-get{
+  position: fixed;
+  left: 20rpx;
+  bottom: 60rpx;
+  width:120rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color: #FFF;
+  background-color: #F03227;
+  border-radius: 35rpx;
+  box-shadow: 0 0 15rpx #DDD;
+}
+/*正在加载*/
+.loading{
+  background-size: 30rpx 30rpx;
+  background-image: url(https://*****/loading.gif);
+  background-repeat: no-repeat;
+  background-position: 20rpx 35rpx;
+  width:200rpx;
+  height:100rpx;
+  padding-left: 50rpx;
+  color: #666;
+  font-size: 33rpx;
+  line-height: 100rpx;
+  margin:0 auto;
+  text-align: center;
+}

@@ -1,0 +1,161 @@
+/* pages/bargain/bargain.wxss */
+.bg{
+  width: 750rpx;
+  height: 2171rpx;
+  background-image: url(https://*****/bargainbg2.png);
+  background-size: 750rpx 2171rpx;
+}
+.box{
+  height: 446rpx;
+  width: 1rpx;
+}
+.userImgBox{
+  margin: 0 auto;
+  width: 131rpx;
+  height: 131rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.priceDown{
+  width: 170rpx;
+  background-color: #FCB92D;
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #FFF;
+  text-align: center;
+  font-size: 30rpx;
+  border-radius: 3rpx;
+  margin-top: 357rpx;
+}
+.priceLine{
+  margin-left: 50rpx;
+  height: 18rpx;
+  border-radius: 9rpx;
+  background: linear-gradient(to right, #FBA62F,#EB2B2A);
+  margin-top: 18rpx;
+}
+.priceLast{
+  margin-left: 550rpx;
+  color: #666;
+  font-size: 26rpx;
+  line-height: 30rpx;
+  height: 30rpx;
+  margin-top: 15rpx;
+}
+.timeLast{
+  margin-top: 53rpx;
+  margin-left: 190rpx;
+  height: 42rpx;
+  width: 260rpx;
+}
+.timeLast-h, .timeLast-m, .timeLast-s{
+  float: left;
+  line-height: 50rpx;
+  height: 42rpx;
+  font-size: 26rpx;
+  color: #666;
+  text-align: center;
+}
+.timeLast-h, .timeLast-m{
+  width: 42rpx;
+}
+.timeLast-m{
+  margin-left: 40rpx;
+}
+.timeLast-s{
+  margin-left: 48rpx;
+}
+.shareButton{
+  padding: 0;
+  margin: 0 auto;
+  margin-top: 58rpx;
+  height: 110rpx;
+  opacity: 0;
+  margin-bottom: 128rpx;
+}
+.list{
+  width: 665rpx;
+  margin: 0 auto;
+  height: 618rpx;
+}
+.list-once{
+  width: 665rpx;
+  height: 100rpx;
+  border-bottom: 1rpx solid #EEE;
+  padding-top: 10rpx;
+}
+.list-img{
+  float: left;
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  background-size: 90rpx 90rpx;
+}
+.list-middle{
+  float: left;
+  width: 420rpx;
+  height: 90rpx;
+  margin-left: 30rpx;
+}
+.list-name{
+  font-size: 30rpx;
+  color: #4A4841;
+  line-height: 50rpx;
+  margin-top: 5rpx;
+}
+.list-tips{
+  font-size: 25rpx;
+  color: #858484;
+  line-height: 30rpx;
+}
+.list-right{
+  font-size: 40rpx;
+  float: left;
+  color: #DC1B30;
+  line-height: 90rpx;
+}
+.list-right text{
+  font-size: 26rpx;
+}
+
+.quan{
+  width: 750rpx;
+  height: 670rpx;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  margin-top: -400rpx;
+  background-image: url(https://*****/bmain3.png);
+  animation: quan 1s;
+  background-size: 750rpx 670rpx;
+}
+
+@keyframes quan {
+  30%{
+    transform:scale(0);
+  }
+  100%{
+    transform:scale(1);
+  }
+}
+.use{
+  width: 437rpx;
+  height: 138rpx;
+  background-size: 437rpx 138rpx;
+  background-image: url(https://*****/bquan.png);
+  position: fixed;
+  left: 156rpx;
+  top: 50%;
+  margin-top: 300rpx;
+  animation: use 1s infinite;
+}
+
+@keyframes use {
+  0%, 100%{
+    transform:scale(0.9);
+  }
+  50%{
+    transform:scale(1);
+  }
+}

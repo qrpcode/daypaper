@@ -1,0 +1,16 @@
+<!--pages/seckill/seckill.wxml-->
+<import src="../template/template-seckill.wxml" />
+
+<!-- 内容主体 -->
+<view class="bg">
+  <!-- 动态图 -->
+  <view class="seckillGif"></view>
+  <!-- 按钮（灰色） -->
+  <view class="seckillButton" style="background-image: {{seckillBtnCss}};" bindtap="seckillDo">{{seckillBtnText}}</view>
+  <!-- 空行 -->
+  <view class="box"></view>
+  <!-- 排行榜 -->
+  <view wx:for="{{list}}" wx:for-item="list" wx:key="key" class="list">
+      <template is="seckillTemplate" data="{{...list}}"></template>
+    </view>
+</view>
