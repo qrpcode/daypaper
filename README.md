@@ -1,6 +1,6 @@
 ## 天天领卷纸小程序
 
-![版本信息](https://img.shields.io/badge/version-1.04-%3CCOLOR%3E)![JDK版本](https://img.shields.io/badge/Java-1.8+-orange)![rabbitmq需要版本](https://img.shields.io/badge/SpringBoot-2.x-blue)![rabbitmq需要版本](https://img.shields.io/badge/RabbitMQ-3.7.15-blue)
+![版本信息](https://img.shields.io/badge/version-1.04-%3CCOLOR%3E)  ![JDK版本](https://img.shields.io/badge/Java-1.8+-orange)  ![rabbitmq需要版本](https://img.shields.io/badge/SpringBoot-2.x-blue)  ![rabbitmq需要版本](https://img.shields.io/badge/RabbitMQ-3.7.15-blue)
 
 小程序系统全面升级，后台由PHP改为Java，新增定时抢兑功能，按需开放，节约运营成本。
 
