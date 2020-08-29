@@ -12,7 +12,7 @@
 
 （我是经过授权后使用的）
 
-![image-20200829094527317](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20200829094527317.png)
+![image-20200829094527317](https://github.com/qrpcode/daypaper/blob/master/README_img/image-20200829094527317.png?raw=true)
 
 
 
