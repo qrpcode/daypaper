@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/paper-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-bargain" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-express" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-friend" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-login" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-pdd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-play" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-seckill" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/paper-parent/paper-system" charset="UTF-8" />
+  </component>
+</project>

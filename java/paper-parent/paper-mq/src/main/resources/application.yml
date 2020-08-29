@@ -1,0 +1,22 @@
+server:
+  port: 12308
+spring:
+  application:
+    name: mq
+  rabbitmq:
+    host: *****
+    port: *****
+    username: *****
+    password: *****
+    virtual-host: /
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///*****
+    username: *****
+    password: *****
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://*****/eureka

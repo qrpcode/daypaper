@@ -1,0 +1,18 @@
+server:
+  port: 12303
+spring:
+  application:
+    name: login
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///*****
+    username: *****
+    password: *****
+  main:
+    allow-bean-definition-overriding: true
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://*****/eureka

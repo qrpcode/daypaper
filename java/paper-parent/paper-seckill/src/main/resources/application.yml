@@ -1,0 +1,25 @@
+server:
+  port: 12302
+spring:
+  application:
+    name: seckill
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///*****
+    username: *****
+    password: *****
+  redis:
+    host: *****
+    port: 6379
+  rabbitmq:
+    host: *****
+    port: 5672
+    username: *****
+    password: *****
+    virtual-host: /
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://*****/eureka

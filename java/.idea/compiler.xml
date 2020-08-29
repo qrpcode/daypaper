@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="paper-friend" />
+        <module name="paper-pdd" />
+        <module name="weixin-java-miniapp-demo" />
+        <module name="paper-eureka" />
+        <module name="paper-play" />
+        <module name="paper-seckill" />
+        <module name="paper-system" />
+        <module name="paper-gateway" />
+        <module name="paper-express" />
+        <module name="paper-mq" />
+        <module name="paper-bargain" />
+        <module name="paper-login" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="paper-bargain" target="1.8" />
+      <module name="paper-eureka" target="1.5" />
+      <module name="paper-express" target="1.8" />
+      <module name="paper-friend" target="1.8" />
+      <module name="paper-gateway" target="1.8" />
+      <module name="paper-login" target="1.8" />
+      <module name="paper-mq" target="1.8" />
+      <module name="paper-parent" target="1.8" />
+      <module name="paper-pdd" target="1.8" />
+      <module name="paper-play" target="1.8" />
+      <module name="paper-seckill" target="1.8" />
+      <module name="paper-system" target="1.8" />
+      <module name="sbm-account-service" target="1.5" />
+      <module name="sbm-business-service" target="1.5" />
+      <module name="sbm-common-service" target="1.5" />
+      <module name="sbm-order-service" target="1.5" />
+      <module name="sbm-storage-service" target="1.5" />
+      <module name="springboot-mybatis" target="1.5" />
+      <module name="weixin-java-miniapp-demo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="paper-bargain" options="-parameters" />
+      <module name="paper-eureka" options="" />
+      <module name="paper-express" options="-parameters" />
+      <module name="paper-friend" options="-parameters" />
+      <module name="paper-gateway" options="-parameters" />
+      <module name="paper-login" options="-parameters" />
+      <module name="paper-mq" options="-parameters" />
+      <module name="paper-pdd" options="-parameters" />
+      <module name="paper-play" options="-parameters" />
+      <module name="paper-seckill" options="-parameters" />
+      <module name="paper-system" options="-parameters" />
+      <module name="weixin-java-miniapp-demo" options="-parameters" />
+    </option>
+  </component>
+</project>

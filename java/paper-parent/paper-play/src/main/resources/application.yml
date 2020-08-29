@@ -1,0 +1,27 @@
+server:
+  port: 12307
+spring:
+  application:
+    name: play
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///*****
+    username: *****
+    password: *****
+  dubbo:
+    application:            #应用配置，用于配置当前应用信息，不管该应用是提供者还是消费者。
+      name: play
+    registry:                 #注册中心配置，用于配置连接注册中心相关信息。
+      address: zookeeper://*****:*****
+    protocol:     #协议配置，用于配置提供服务的协议信息，协议由提供方指定，消费方被动接受。
+      name: system
+      port: 20880
+    base-package: com.qiruipeng.play.service.impl
+    consumer:
+      timeout: 30000
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://*****/eureka

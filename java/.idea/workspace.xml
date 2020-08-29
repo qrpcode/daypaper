@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d23cdc75-c306-49b6-acea-551016504a5b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gJpTEDBPcK1tBOhT4xVlb5Kkn2" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/paper-parent/paper-gateway/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\javaClass\daypaper\paper-parent\paper-gateway\src\main\resources" />
+      <recent name="D:\javaClass\daypaper\paper-parent\paper-gateway\src\main\resources\static" />
+      <recent name="D:\javaClass\daypaper\paper-parent\paper-seckill\src\main\resources" />
+      <recent name="D:\javaClass\daypaper\paper-parent\paper-bargain\src\main\resources" />
+      <recent name="D:\javaClass\daypaper\paper-parent" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qiruipeng.play.dao" />
+      <recent name="com.qiruipeng.mq.dao" />
+      <recent name="com.qiruipeng.mq.pojo" />
+      <recent name="com.qiruipeng.mq.bargain" />
+      <recent name="com.qiruipeng.seckill.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\javaClass\daypaper\paper-parent\paper-login\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.PlayApplication">
+    <configuration name="BargainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="paper-bargain" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.BargainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="paper-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qiruipeng.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.eureka.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExpressApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="paper-express" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.ExpressApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="paper-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.GateWayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="paper-login" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qiruipeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.LoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="paper-mq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qiruipeng.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.mq.MQApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="paper-play" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qiruipeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.PlayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeckillApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="paper-seckill" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qiruipeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.SeckillApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="paper-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.qiruipeng.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WxMaDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="weixin-java-miniapp-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.github.binarywang.demo.wx.miniapp.WxMaDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.PlayApplication" />
+        <item itemvalue="Spring Boot.LoginApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.SeckillApplication" />
+        <item itemvalue="Spring Boot.MQApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d23cdc75-c306-49b6-acea-551016504a5b" name="Default Changelist" comment="" />
+      <created>1597842554800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597842554800</updated>
+      <workItem from="1597842558054" duration="2630000" />
+      <workItem from="1597892563939" duration="21549000" />
+      <workItem from="1597965014007" duration="62736000" />
+      <workItem from="1598094245205" duration="6866000" />
+      <workItem from="1598101824926" duration="4605000" />
+      <workItem from="1598106665098" duration="911000" />
+      <workItem from="1598140703726" duration="24213000" />
+      <workItem from="1598180786679" duration="21604000" />
+      <workItem from="1598240385496" duration="50318000" />
+      <workItem from="1598403413375" duration="6892000" />
+      <workItem from="1598417164846" duration="30739000" />
+      <workItem from="1598491441986" duration="2164000" />
+      <workItem from="1598500671710" duration="1140000" />
+      <workItem from="1598506383424" duration="4128000" />
+      <workItem from="1598568617393" duration="1450000" />
+      <workItem from="1598572480921" duration="1535000" />
+      <workItem from="1598616818243" duration="897000" />
+      <workItem from="1598618562333" duration="580000" />
+      <workItem from="1598621022904" duration="713000" />
+      <workItem from="1598622406748" duration="115000" />
+      <workItem from="1598622584200" duration="1859000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

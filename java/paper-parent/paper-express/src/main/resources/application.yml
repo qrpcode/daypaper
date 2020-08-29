@@ -1,0 +1,16 @@
+server:
+  port: 12304
+spring:
+  application:
+    name: express
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///*****
+    username: *****
+    password: *****
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://*****/eureka

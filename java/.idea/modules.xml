@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-bargain/paper-bargain.iml" filepath="$PROJECT_DIR$/paper-parent/paper-bargain/paper-bargain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-eureka/paper-eureka.iml" filepath="$PROJECT_DIR$/paper-parent/paper-eureka/paper-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-express/paper-express.iml" filepath="$PROJECT_DIR$/paper-parent/paper-express/paper-express.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-friend/paper-friend.iml" filepath="$PROJECT_DIR$/paper-parent/paper-friend/paper-friend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-gateway/paper-gateway.iml" filepath="$PROJECT_DIR$/paper-parent/paper-gateway/paper-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-login/paper-login.iml" filepath="$PROJECT_DIR$/paper-parent/paper-login/paper-login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-mq/paper-mq.iml" filepath="$PROJECT_DIR$/paper-parent/paper-mq/paper-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-parent.iml" filepath="$PROJECT_DIR$/paper-parent/paper-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-pdd/paper-pdd.iml" filepath="$PROJECT_DIR$/paper-parent/paper-pdd/paper-pdd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-play/paper-play.iml" filepath="$PROJECT_DIR$/paper-parent/paper-play/paper-play.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-seckill/paper-seckill.iml" filepath="$PROJECT_DIR$/paper-parent/paper-seckill/paper-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/paper-system/paper-system.iml" filepath="$PROJECT_DIR$/paper-parent/paper-system/paper-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/paper-parent/weixin-java-miniapp-demo-master/weixin-java-miniapp-demo-master/weixin-java-miniapp-demo.iml" filepath="$PROJECT_DIR$/paper-parent/weixin-java-miniapp-demo-master/weixin-java-miniapp-demo-master/weixin-java-miniapp-demo.iml" />
+    </modules>
+  </component>
+</project>

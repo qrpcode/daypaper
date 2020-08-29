@@ -1,0 +1,16 @@
+server:
+  port: 12399
+eureka:
+  instance:
+    hostname: *****
+    ip-address: *****
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://*****:12399
+  server:
+    enable-self-preservation: false
+spring:
+  application:
+    name: eureka

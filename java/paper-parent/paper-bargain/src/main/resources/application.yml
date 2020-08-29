@@ -1,0 +1,16 @@
+server:
+  port: 12301
+spring:
+  application:
+    name: bargain
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///*****
+    username: *****
+    password: *****
+eureka:
+  client:
+    service-url:
+      defaultZone: http://*****/eureka
+  instance:
+    prefer-ip-address: true
