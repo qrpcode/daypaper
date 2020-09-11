@@ -53,6 +53,6 @@
 
 ![duoduojinbao](https://github.com/qrpcode/daypaper/blob/master/README_img/duoduojinbao.png?raw=true)
 
-
+（欢迎扫码体验）
 
 ### 有帮助记得点star ☆
